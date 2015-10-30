@@ -1,0 +1,415 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Style Class for Labels and Captions */ 
+.clsLabel {
+	font-family: Tahoma;
+	font-size:11px;
+	color:#2A1F55;
+}
+
+/*Style Class for Mandatory Label */
+.clsMandatoryLabel{
+	font-family: Tahoma;
+	font-size:11px;
+    
+}
+
+.clsListTableBody {
+    width: 100%;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: center;
+    border: solid 1px Silver;
+    background-color: #F9F9FF;
+}
+
+/*Style Class for Html Buttons */
+.clsButton{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Disabled Buttons */
+.clsDisabledButton{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Image Button */
+.clsImageButton{	
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Text boxes */
+.clsText{
+	border-bottom: 1px solid #035C96;
+	border-top: 1px solid #065F99;
+	border-left: 1px solid #065F99;
+	border-right: 1px solid #035C96;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+
+/*Style Class for Disabled Text Box */
+.clsDisabledText{
+	border-bottom: 1px solid #035C96;
+	border-top: 1px solid #065F99;
+	border-left: 1px solid #065F99;
+	border-right: 1px solid #035C96;
+	font-family: Tahoma;
+	font-size:11px;
+	color:Navy;
+    
+}
+
+/*Style Class for Date Text boxes */
+.clsDateBox{
+	border-bottom: 1px solid #035C96;
+	border-top: 1px solid #065F99;
+	border-left: 1px solid #065F99;
+	border-right: 1px solid #035C96;
+	font-family: Tahoma;
+	font-size:11px;
+	direction: ltr;
+}
+
+/*Style Class for Disabled Date Text boxes */
+.clsDisabledDateBox{
+	border-bottom: 1px solid #035C96;
+	border-top: 1px solid #065F99;
+	border-left: 1px solid #065F99;
+	border-right: 1px solid #035C96;
+	font-family: Tahoma;
+	font-size:11px;
+	direction: ltr;
+	color:Navy;
+}
+
+/*Style Class for Text Area */
+.clsTextArea{
+	border-bottom: 1px solid #035C96;
+	border-top: 1px solid #065F99;
+	border-left: 1px solid #065F99;
+	border-right: 1px solid #035C96;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Disabled Text Area */
+.clsDisabledTextArea{
+	border-bottom: 1px solid #035C96;
+	border-top: 1px solid #065F99;
+	border-left: 1px solid #065F99;
+	border-right: 1px solid #035C96;
+	font-family: Tahoma;
+	font-size:11px;
+	color:Navy;
+}
+
+/*Style Class for Select Boxes */
+.clsSelect{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Disabled Select Boxes */
+.clsDisabledSelect{
+	font-family: Tahoma;
+	font-size:11px;
+  color:Navy;
+  
+}
+
+/*Style Class for Check Boxes */
+.clsCheckBox{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Check Boxes */
+.clsDisabledCheckBox{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for Tables Where DataGrids will be shown  */
+/*DataGrid is table in which data from Database will be presented */
+.clsTableBody{
+	width:100%;
+	font-family:Tahoma;
+	font-size:11px;
+	text-align:center;
+	background-color:#F9F9FF;
+}
+
+/*Style Class for DataGrid Header*/
+.clsTableHeader{
+	font-family: Tahoma;
+	font-size:11px;
+	border-top-width: 1px;
+	border-right-width: 2px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #E0E1E9;
+	border-right-color: #ACB0CA;
+	border-bottom-color: #68709F;
+	border-left-color: #D2D4E2;
+	vertical-align:middle;
+  text-align: center;
+	background-image: url(../img/table_head.jpg);
+	background-repeat:repeat-x;
+	background-color: #D5E3F0;
+}
+
+/*Style Class for Tables Odd Row */
+.clsTableOddRow{
+	font-family: Tahoma;
+	font-size:11px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FBFFFF;
+	border-right-color: #AFBDD8;
+	border-bottom-color: #7BA7CE;
+	border-left-color: #CFDDE8;
+	vertical-align:middle;
+	background-color: #F9FAFF;
+	padding: 1px 4px;
+}
+
+/*Style Class for Tables Even Row */
+.clsTableEvenRow{
+	font-family: Tahoma;
+	font-size:11px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FBFFFF;
+	border-right-color: #9FADD8;
+	border-bottom-color: #6B97CE;
+	border-left-color: #CFDDE8;
+	vertical-align:middle;
+	background-color: #E9EAFF;
+	padding: 1px 4px;
+}
+
+.clsTableHighLightRow{
+	background-color: #FADBAC;	
+}
+
+.clsTableSelectRow{
+	background-color: #E2E8D0;	
+}
+
+/*Style Class for DataGrid Normal Cell */
+.clsTableCellNormal {
+  text-align: left;
+}
+
+/*Style Class for DataGrid Cell which must be aligned Center */
+.clsTableCellCenter {
+  text-align: center;
+}
+
+/*Style Class for DataGrid Cell which must be aligned left */
+.clsTableCellLatin {
+  text-align: left;
+}
+
+/*Style Class for bar on top of the pages */
+.clsPageHeader{
+	font-family: Tahoma;
+	font-size:11px;
+	background-color:#003466;
+	color:#FFFFFF;
+	margin:  1px 2px 1px 2px;
+	border-width: 0px 0px 0px 0px;
+	text-align:center;
+	background-image: url(../img/img_BlueBar_120.gif);
+	background-repeat:repeat-x;
+}
+
+/*Style Class for main table of the page which contains page components */
+.clsPageBody{
+  direction:ltr;
+	font-family: Tahoma;
+	font-size:11px;
+	border: 0px none;
+	width:100%;
+	border: 0px none ;
+	background-color: #FFFFFF;
+}
+
+.clsPageScroll{
+  scrollbar-3dlight-color:white;
+  scrollbar-arrow-color:gray;  
+  scrollbar-darkshadow-color:black;
+  scrollbar-face-color:#4D5572;
+  scrollbar-highlight-color:black;
+  scrollbar-shadow-color:gray;
+  scrollbar-track-color:#757BA1;   
+}
+
+/*Style Class for bar on the bottom of the pages */
+.clsPageFooter{
+	font-family: Tahoma;
+	font-size:11px;
+	background-color:#003466;
+	color:#FFFFFF;
+	margin:  1px 2px 1px 2px;
+	border-width: 0px 0px 0px 0px;
+	text-align:center;
+	background-image: url(../img/img_BlueBar_120.gif);
+	background-repeat:repeat-x;
+}
+
+/*Style Class for Tables which contains input components and their labels  */
+/*While you want create an input form with table , this class will be used */
+.clsInputPage{
+  direction:ltr;
+	font-family: Tahoma;
+	font-size:11px;
+	background-image: url(../img/img_back.png);
+	background-color:#D0D9FC;
+	color:#000000;
+}
+
+/*Style Class for Table Cells of input form (table with clsInputPage Class) */
+/*Defaul alignment of these cells are center and you can override this alignment with one of 'cellAlignDefault' or 'cellAlignReverse' classes */
+.clsInputPageCell{
+	font-family:Tahoma;
+	font-size:11px;
+	/*background-color:#D0D9FC;*/
+	color:#000000;
+	vertical-align:middle;
+}
+
+/*Style Class for Error messages */
+.clsErrorMessage{
+	font-family: Tahoma;
+	font-size:11px;
+	color: Red;
+}
+
+/*Style Class for Warning messages */
+.clsWarningMessage{
+	font-family: Tahoma;
+	font-size:11px;
+	color:  #FF9900;
+}
+
+/*Style Class for Success messages */
+.clsSuccessMessage{
+	font-family: Tahoma;
+	font-size:11px;
+	color: Green;
+}
+
+/*Style Class for Lists (Html 'ul' or 'ol' tag) */
+.clsListRoot{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for List items (Html 'li' tag) */
+.clsListChild{
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*Style Class for anchors */
+a {
+	border: 0px none #FFFFFF;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+a:hover {
+	border: 0px none #FFFFFF;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+a:link {
+	border: 0px none #FFFFFF;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+a:active {
+	border: 0px none #FFFFFF;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+body{
+	direction:ltr;
+	background-color:#FFFFFF;
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+/*pagebanner Class and pagelinks class are two classes which are used in DataGrid (Data Tables) */
+/*pagebanner Style Class is used for texts on top of the table  */
+.pagebanner{
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+/*pagebanner Style Class is used for links in DataGrids  */
+.pagelinks{
+	font-family: Tahoma;
+	font-size: 11px;
+	direction: ltr;
+	text-align: left;
+}
+
+/*Style Class for Sorted columns of DataGrid */
+.clsSorted{
+	
+}
+
+/*Style Class for Sortable column of DataGrid */
+.clsSortable{
+
+}
+
+/*Style Class for the page components which must be aligned to the defaul page direction */
+/*In right-to-left pages this class is used to align right and in left-to-right pages is used to aligned left  */
+.clsCellAlignDefault{
+ text-align: left;  
+}
+
+/*Style Class for the page components which must be aligned opposite of page direction */
+.clsCellAlignOpposite{
+ text-align: right;  
+}
+/*Style Class for Color of Separator Row */
+.clsSeparator{
+	background-color:#5162C4;  
+}
+
+.ui-layout-resizer	{ /* all 'resizer-bars' */
+	background:		#D0D9FC;
+	border:			1px solid #003466;
+	border-width:	0;
+	}
+/*------------------------------------------------END-----------------------------------------------*/
+
