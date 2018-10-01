@@ -14,7 +14,7 @@ To improve search time and use free server on internet,
 
 try to simulate distributed processing and distribute storage.
 
-Client can see only master app and use id to store and search request.
+Client can see only master app and use it to store and search request.
 
 Master app distribute request to all slave app.
 
